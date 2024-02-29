@@ -122,5 +122,6 @@ if __name__ == '__main__':
         server_port=args.port if args.port else config['PORT'],
         root_path=config['ROOT'],
         show_error=True,
+        share=True,
         debug=True,
         enable_queue=True)
